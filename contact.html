@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script>
+            function validateForm() {
+                
+                var fName = documnet.myFrm.firstName.value;
+                var lName = document.myFrm.lastName.value;
+                var aemail = document.myFrm.email.value;
+
+                if(fName == null || fName == ""){
+                    alert("Must provide a first name.");
+                    return false;
+                }
+                else if(lName == "" || lNAme == null){
+                    alert("Must provide last name.");
+                    return false;
+                }
+                else if(aemail == "" || aemail == null){
+                    alert("Must provide email.");
+                    return false;
+                }
+                return false;
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="maintitle">Tutor.me</h1>
+        <img src="images/logo.PNG" id="logo">
+        <nav>
+            <ul class="navbr">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+        </nav>
+        <div id="contactdiv">
+            <h1>Conact Us</h1>
+            <P>
+                if you would like to know more <br>
+                about our platform feel free to fill out<br>
+                the form below with your info and we will <br>
+                contact you once the beta is live! 
+            </P>
+        </div>
+        <form name=”myFrm” action="done.html" method="POST"	onsubmit= "return validateForm()" >
+            <label>	First Name:	<input	type=”text”	name=”firstName” id=”firstName”/></label><br/>
+            <label>	  Last Name: <input	type=”text”	name=”lastName”	id=”lastName”/></label>	<br/>
+            <label>	       Email: <input	type=”text”	name=email id=email/></label><br/>
+            <input type="submit">
+        </form>
+    </body>
+
+</html>

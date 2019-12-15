@@ -1,0 +1,164 @@
+div.yellowgreen1 {
+    position: absolute;
+    left: 7%;
+    border-style: solid;
+    border-color: yellowgreen;
+    text-align: left;
+    padding: 2%;
+  }
+  div.yellowgreen2 {
+      position: absolute;
+      right: 8%;
+      border-style: solid;
+      border-color: yellowgreen;
+      width: auto;
+      height: auto;
+      
+
+  }
+#maintitle{
+    color: greenyellow;
+    font-family: fantasy;
+    text-align: center;
+    text-size-adjust: 25%;
+}
+h1.heading1 {
+    position: relative;
+    left: 7%;
+}
+h1.heading2 {
+    text-align: center;
+    left: 75%;
+}
+
+ul.navbr {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+ ul.navbr li {
+    float: left;
+  }
+  
+  ul.navbr li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  ul.navbr li a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  body {
+      font-family: 'Courier New', Courier, monospace;
+      color: blanchedalmond;
+      background-color: darkblue;
+     
+  }
+ 
+  .servicelist {
+      text-align: center;
+      list-style-type: square;
+      list-style-position: inside;
+      font-size: x-large; 
+
+  }
+  .servicelist li {
+      margin: 5px;
+  }
+  #discription1 {
+    position: relative;
+    float: left;
+    border-style: solid;
+    border-color: yellowgreen;
+    width: 24%;
+    height: 280px;
+    text-align: center;
+    padding-top: 5%;
+  }
+  #discription2 {
+    position: relative;
+    float: left;
+    width: 24%;
+    height: 280px;
+    border-style: solid;
+    border-color: yellowgreen;
+    text-align: center;
+    padding-top: 5%;
+}
+#discription3 {
+    position: relative;
+    float: left;
+    width: 24%;
+    height: 280px;
+    border-style: solid;
+    border-color: yellowgreen;
+    text-align: center;
+    padding-top: 5%;
+}
+#discription4 {
+    position: relative;
+    float: left;
+    width: 24%;
+    height: 280px;
+    border-style: solid;
+    border-color: yellowgreen;
+    text-align: center;
+    padding-top: 5%;
+}
+
+form {
+  text-align: center;
+  border-style: solid;
+  border-color: yellowgreen;
+  
+}
+form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+label, input {
+  display: inline-block;
+}
+
+label {
+  width: 30%;
+  text-align: right;
+}
+
+label + input {
+  width: 30%;
+  margin: 0 30% 0 4%;
+}
+
+input + input {
+  float: right;
+}
+#contactdiv {
+  text-align: center;
+}
+
+img {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+#logo {
+  position: relative;
+  left: 90%;
+  width: 9%;
+  height: 9%;
+  background: #555;
+}
